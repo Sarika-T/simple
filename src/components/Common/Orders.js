@@ -8,7 +8,7 @@ import {
 
 export default function BasicRowEditingGrid() {
   return (
-    <div style={{ height: 300, width: '100%' }}>
+    <div style={{ height: 250, width: '100%' }}>
       <DataGrid editMode="row" rows={rows} columns={columns} />
     </div>
   );

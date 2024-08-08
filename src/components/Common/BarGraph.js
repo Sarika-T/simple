@@ -29,6 +29,7 @@ export default function TickPlacementBars() {
     <div style={{ width: '100%', height: '150px' }}>
       <BarChart
         dataset={dataset}
+        className="bargraph-set"
         xAxis={[
           { scaleType: 'band', dataKey: 'Day',tickPlacement,tickLabelPlacement },
         ]}
