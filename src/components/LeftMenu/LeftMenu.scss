@@ -1,0 +1,23 @@
+.leftmenu{
+    &-page{
+        height: 100%;
+        background-color: grey;
+        &-top{
+            height: 60px;
+            align-items: center;
+            display: flex;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+        &-bottom{
+            display: flex;
+            height: 90vh;
+            gap: 100px;
+            flex-direction: column;
+        }
+    }
+}
+
+.css-35zqo5-MuiTabs-root {
+    height: 80% !important;
+}

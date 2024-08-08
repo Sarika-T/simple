@@ -1,10 +1,11 @@
-import logo from './logo.svg';
 import './App.css';
+import MainPage from './components/MainPage/MainPage';
 
 function App() {
   return (
     <div className="App">
-       <h1> Succcessfully </h1>
+       {/* <h1> Succcessfully </h1> */}
+       <MainPage />
     </div>
   );
 }

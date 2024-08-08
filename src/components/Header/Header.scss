@@ -1,0 +1,19 @@
+.header{
+    &-page{
+        width: 100%;
+        height: 60px;
+        display: flex;
+        align-items: center;
+        &-left{
+            justify-content: start;
+            display: flex;
+            margin-left: 25px;
+            width: 80%;
+        }
+        &-right{
+            justify-content: end;
+            display: flex;
+            gap: 20px;
+        }
+    }
+}

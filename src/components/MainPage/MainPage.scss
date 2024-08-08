@@ -1,0 +1,16 @@
+.mainpage{
+    background-color: black;
+    &-content{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        &-left{
+            width: 7%;
+            background-color: grey;
+        }
+        &-right{
+            height: 100%;
+            width: 100%;
+        }
+    }
+}
