@@ -1,6 +1,11 @@
+@import '../../assests/view.scss';
+
 .searchpage {
     display: flex;
     margin-left: 40px;
+    @include responsive(md){
+        margin-left: 0px;
+    }
 }
 
 .MuiInputBase-fullWidth{
