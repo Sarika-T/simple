@@ -2,6 +2,7 @@
 import LeftMenu from "../LeftMenu/LeftMenu";
 import RightMenu from "../RightMenu/RightMenu";
 import './MainPage.scss';
+import '../../assests/view.scss';
 
 
 

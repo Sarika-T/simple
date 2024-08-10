@@ -1,3 +1,5 @@
+@import '../../assests/view.scss';
+
 // .css-172kpif-MuiResponsiveChart-container {
 //     width: 100%;
 //     height: 160px !important;
@@ -5,6 +7,9 @@
 
 .bargraph-set{
     height: 160px !important;
+    @include responsive(md){
+
+    }
 }
 
 .css-1k2u9zb-MuiChartsAxis-root .MuiChartsAxis-line {

@@ -1,3 +1,5 @@
+@import '../../assests/view.scss';
+
 .rightmenu{
     &-page{
         &-header{
@@ -18,6 +20,9 @@
     &-page{
         padding: 20px;
         margin: 20px;
+        @include responsive(md){
+            padding: 0;
+        }
         &-title{
             color: white;
             justify-content: start;
@@ -31,11 +36,24 @@
             display: grid;
             grid-template-columns: 2fr 1fr;
             gap: 20px;
+            @include responsive(md){
+                display: flex;
+                flex-direction: column;
+            }
             &-first{
                 height: 120px;
+                @include responsive(md){
+                    width: 100%;
+                    height: 220px;
+                }
                 &-tab{
                     display: flex;
                     gap: 37px;
+                    @include responsive(md){
+                        display: grid;
+                        grid-template-columns: 2fr 2fr;
+                        gap: 15px;
+                    }
                 }
                 &-box{
                     width: 170px;
@@ -49,6 +67,10 @@
                     padding-left: 10px;
                     background-color: grey;
                     border-radius: 10px;
+                    @include responsive(md){
+                        width: 95%;
+                        margin: 0;
+                    }
                     &-icon{
                         margin-top: 6px;
                     }
@@ -114,6 +136,9 @@
                     gap: 600px;
                     font-size: 17px;
                     font-weight: 700;
+                    @include responsive(md){
+                        gap: 130px;
+                    }
                     &-side{
                         border-radius: 10px;
                         background-color: lightslategray;
